@@ -1,5 +1,5 @@
-'use strict';
-let b=regitquire('./second');
-var a=[1,2,3,4,5];
+var consoleRec=require('./consoleRec');
 
-console.log(b);
+var a=['Я','умею','писать','рекурсивные','функции','dgfdg'];
+
+consoleRec(a,0);
