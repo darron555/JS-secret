@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+
+    console.error("smth");
+
+    console.time('timer');
+    for(var i=0;i<1000;i++){
+        for(var j=1;j<5000;j++){
+            i*(j*3-0.2);
+        }
+    }
+    console.timeEnd("timer");
+</script>
+
+</body>
+</html>
